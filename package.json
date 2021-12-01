@@ -1,0 +1,24 @@
+{
+  "name": "repo-dazingpluto-week3unit-2deliverable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DazingPluto/repo-dazingpluto-week3Unit-2Deliverable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DazingPluto/repo-dazingpluto-week3Unit-2Deliverable/issues"
+  },
+  "homepage": "https://github.com/DazingPluto/repo-dazingpluto-week3Unit-2Deliverable#readme",
+  "dependencies": {
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}
