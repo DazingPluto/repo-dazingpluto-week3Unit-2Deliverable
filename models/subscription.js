@@ -15,8 +15,14 @@ module.exports = (sequelize, DataTypes) => {
   };
   Subscription.init({
     name: DataTypes.STRING,
-    offers: DataTypes.STRING,
-    cost: DataTypes.STRING
+    offers:{
+      type: DataTypes.STRING,
+      validate:{isAlpha: true}
+    },
+    cost:{ 
+      type: DataTypes.INTEGER,
+      validate:{isAlphanumeric: true}
+    },
   }, {
     sequelize,
     modelName: 'Subscription',

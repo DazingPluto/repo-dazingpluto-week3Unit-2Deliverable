@@ -1,3 +1,4 @@
+const { DataTypes } = require('sequelize/dist');
 const {Sale, Subscription, Television} = require('./models');
     //Begin of Sale model(row) creation
 // Sale.create({
@@ -242,3 +243,154 @@ const {Sale, Subscription, Television} = require('./models');
 //     console.log('ERROR', err)
 // })
         //begin of subscriptions model(row)s'
+// Subscription.create({
+//     name: 'Apple TV',
+//     offers: 'Television Subscription',
+//     cost: 4.99
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR', err);
+// })
+// Subscription.create({
+//     name: 'Apple Fitness',
+//     offers: 'Fitness Subscription',
+//     cost: 9.99
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR', err);
+// })
+// Subscription.create({
+//     name: 'Apple Music',
+//     offers: 'Music Subscription',
+//     cost: 9.99
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERRR', err);
+// })
+// Subscription.create({
+//     name: 'Apple Arcade',
+//     offers: 'Gaming Subscription',
+//     cost: 4.99
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR', err);
+// })
+// Subscription.create({
+//     name: 'Apple News',
+//     offers: 'News Feed',
+//     cost: 0
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR', err)
+// })
+// Subscription.create({
+//     name: 'iCloud',
+//     offers: 'Database Subscription',
+//     cost: 6
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR', err);
+// })
+// Subscription.create({
+//     name: 'Apple Podcast',
+//     offer: 'Podcast Subscription',
+//     cost: 2.99
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR', err);
+// })
+// Subscription.create({
+//     name: 'Apple Books',
+//     offer: 'Book Subscription',
+//     cost: 4.99
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR', err);
+// })
+// Subscription.create({
+//     name: 'Apple Card',
+//     offer: 'Pay-Card Subscription',
+//     cost: 0
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR', err);
+// })
+                /// ------------->> VALIDATIONS
+// Subscription.create({
+//     name: 'NewWorld',
+//     offers: "ABC space",
+//     cost: 4.99
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR', err);
+// })
+// Subscription.create({
+//     name: 'AION',
+//     offers: 'GameSub',
+//     cost: 49
+// })
+// .then(function(newSub){
+//     console.log(newSub.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR!', err);
+// })
+// Television.create({
+//     show: 'Steven Universe',
+//     released: 2016,
+//     lead: 'Steven',
+//     type: 'Animates Series'
+// })
+// .then(function(newShow){
+//     console.log(newShow.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR', err);
+// })
+// Television.create({
+//     show: "That 70s Show",
+//     released: 0,
+//     lead: 'Linsdey Lohan',
+//     type: "hello world"
+// })
+// .then(function(newShow){
+//     console.log(newShow.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR!', err);
+// })
+// ------------------------------------->> Some Read Commands
+
+
+
+

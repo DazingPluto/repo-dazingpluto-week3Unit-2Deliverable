@@ -14,11 +14,17 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Television.init({
-    show: DataTypes.STRING,
+    show:{
+      type: DataTypes.STRING,
+      validate: {equals: 'That 70s Show'}
+    },
     released: DataTypes.INTEGER,
     lead: DataTypes.STRING,
-    type: DataTypes.STRING
-  }, {
+    type:{
+      type: DataTypes.STRING,
+      validate: {notEmpty: true}
+    },
+  },{
     sequelize,
     modelName: 'Television',
   });
