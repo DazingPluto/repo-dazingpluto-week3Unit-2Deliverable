@@ -390,7 +390,22 @@ const {Sale, Subscription, Television} = require('./models');
 //     console.log('ERROR!', err);
 // })
 // ------------------------------------->> Some Read Commands
-
-
-
-
+// Television.findOne({
+//     where:{show: 'Steven Universe'}
+// })
+// .then(function(show){
+//     console.log(show.toJSON());
+// })
+// .catch(function(err){
+//     console.log('ERROR!', err);
+// })
+Television.findAll({
+    where:{released: 2020}
+})
+.then(function(showArray){
+    console.log('SHOW ARRAY');
+    console.log(showArray.toJSON());
+})
+.catch(function(err){
+    console.log('ERROR', err);
+})
